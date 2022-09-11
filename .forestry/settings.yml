@@ -86,5 +86,5 @@ build:
   mount_path: "/srv"
   working_dir: "/srv/exampleSite"
   instant_preview_command: hugo server --port 8080 --bind 0.0.0.0 --renderToDisk -d
-    public
+    public --themesDir ..
 version: 0.81.0
