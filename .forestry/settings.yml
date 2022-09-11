@@ -80,10 +80,11 @@ build:
   preview_env:
   - HUGO_ENV=staging
   - HUGO_VERSION=0.81.0
-  preview_output_directory: exampleSite/public
+  preview_output_directory: public
+  install_dependencies_command: hugo --minify --gc --themesDir ../..
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
-  working_dir: "/srv"
+  working_dir: "/srv/exampleSite"
   instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
     -d public
 version: 0.81.0
