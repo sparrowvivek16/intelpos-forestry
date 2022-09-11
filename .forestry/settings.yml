@@ -82,8 +82,8 @@ build:
   - HUGO_VERSION=0.81.0
   preview_output_directory: public
   install_dependencies_command: hugo --minify --gc --themesDir ../..
-  preview_docker_image: forestryio/hugo:latest
+  preview_docker_image: forestryio/hugo:node16
   mount_path: "/srv"
   working_dir: "/srv/exampleSite"
-  instant_preview_command: hugo server
+  instant_preview_command: npx http-server
 version: 0.81.0
