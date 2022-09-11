@@ -25,6 +25,5 @@ services:
   - Focus critical developer resources on your core business
   - Launch new products faster with less payments code
   - Improve conversion from international customers
-draft: true
 
 ---
