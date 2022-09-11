@@ -5,7 +5,7 @@ description: Libero consequuntur doloremque amet, cum fugiat ipsam blanditiis co
 layout: contact
 bannertext: banner heading
 bannerimage: images/bg-banner-page.jpg
-enable: false
+enable: true
 contact:
   subtitle: We Are the pioneer
   title: Schedule a Demo
