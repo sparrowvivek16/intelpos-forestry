@@ -5,7 +5,7 @@ description: Libero consequuntur doloremque amet, cum fugiat ipsam blanditiis co
 layout: contact
 bannertext: banner heading
 bannerimage: images/bg-banner-page.jpg
-enable: true
+enable: false
 contact:
   subtitle: We Are the pioneer
   title: Schedule a Demo
@@ -25,5 +25,6 @@ services:
   - Focus critical developer resources on your core business
   - Launch new products faster with less payments code
   - Improve conversion from international customers
+draft: true
 
 ---
